@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+CV
+======
+* My official Curriculum Vitae could be found [here](https://github.com/zchendg/zchendg.github.io/blob/master/files/CV_4.0.pdf)
+
 Education
 ======
 * BSc in Hong Kong University of Science and Technology, 2022
