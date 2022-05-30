@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV hahaha"
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-* My official Curriculum Vitae could be found [here](https://github.com/zchendg/zchendg.github.io/blob/master/files/CV_4.0.pdf)
+* My official Curriculum Vitae could be found: [here](https://github.com/zchendg/zchendg.github.io/blob/master/files/CV_4.0.pdf)
 
 Education
 ======
