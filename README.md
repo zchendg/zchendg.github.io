@@ -1,22 +1,48 @@
 # Zijun CHEN Academic Homepage
 
-This is a static academic homepage designed for GitHub Pages at `https://zchendg.github.io/`.
+This is a Jekyll-powered academic homepage designed for GitHub Pages at `https://zchendg.github.io/`.
 
-## Local Preview
+## What To Edit
 
-Open `index.html` directly in a browser.
+- Main homepage content: `index.md`
+- Sidebar profile data, links, and navigation: `_config.yml`
+- Visual styling: `styles.css`
+- Portrait: `assets/profile.jpg`
+- CV: `assets/Zijun_CHEN_CV.pdf`
 
-## Content To Update
+For routine updates, you usually only need to edit `index.md`.
 
-- The GitHub profile link points to `https://github.com/zchendg`.
-- The portrait is stored at `assets/profile.jpg`.
-- Keep the CV at `assets/Zijun_CHEN_CV.pdf` so it works on GitHub Pages.
+## Markdown Editing Notes
 
-## GitHub Pages Deployment
+Section headings use explicit anchors so the navigation links keep working:
 
-1. Create a public GitHub repository named `zchendg.github.io`.
-2. Commit these files at the repository root.
-3. Push to the `main` branch.
-4. The site will be available at `https://zchendg.github.io/`.
+```markdown
+## About Me {#about}
+```
 
-If using a normal project repository instead, enable Pages from GitHub repository settings and select the `main` branch root as the source.
+Lists can receive a style class with Kramdown syntax:
+
+```markdown
+- **Jan. 2026** News item text.
+{: .news-list}
+```
+
+Skills are also a normal Markdown list with a class:
+
+```markdown
+- Python
+- PyTorch
+{: .tags}
+```
+
+## Publishing Changes
+
+After editing, run:
+
+```bash
+git add .
+git commit -m "Update homepage content"
+git push
+```
+
+GitHub Pages will rebuild the site automatically. The page should update at `https://zchendg.github.io/` after a short delay.

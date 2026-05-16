@@ -1,0 +1,41 @@
+title: Zijun CHEN
+description: Academic homepage of Zijun CHEN, PhD student in Computer Science at HKUST.
+url: "https://zchendg.github.io"
+baseurl: ""
+
+markdown: kramdown
+
+profile:
+  name: Zijun CHEN
+  role: PhD Student in Computer Science
+  affiliation: The Hong Kong University of Science and Technology
+  image: /assets/profile.jpg
+  image_alt: Zijun CHEN by the coast
+  links:
+    - label: Email
+      url: mailto:zchendg@connect.ust.hk
+    - label: CV
+      url: /assets/Zijun_CHEN_CV.pdf
+    - label: Google Scholar
+      url: https://scholar.google.com/scholar?q=Zijun+Chen+HKUST+reinforcement+learning
+    - label: GitHub
+      url: https://github.com/zchendg
+  meta:
+    - label: Location
+      value: Hong Kong, China
+    - label: Advisors
+      value: Prof. Ke Yi and Prof. Nian Si
+    - label: Interests
+      value: Reinforcement Learning, Machine Learning Theory, Applied Probability, Game Theory
+
+nav:
+  - label: About
+    url: "#about"
+  - label: News
+    url: "#news"
+  - label: Publications
+    url: "#publications"
+  - label: Awards
+    url: "#awards"
+  - label: Experience
+    url: "#experience"
